@@ -1,0 +1,239 @@
+
+/* nav */
+.img-full{
+  width: 100px;
+  height: 80px;
+} 
+/* *{
+  background-color: #6A6B6E;
+} */
+nav{
+  /* background-color: #111; */
+  background-color: white;
+  width: 100%;
+  justify-content: center;
+}
+
+.dropdown-menu:hover{
+  border: 1px solid gray;
+}
+/* utilisé les psseudo class présément hover pour afficher le border */
+.btn-close:hover{
+  border: 2px solid gray;
+}
+.nav-item{
+  margin-right: 25px;
+  margin-left: 25px;
+}
+/* section */
+.bghome{
+  border-radius: 20px;
+  margin: 20px;
+  width: 97%;
+  height: 650px;
+}
+
+.blog-img{
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+  margin-left: 13px;
+  /* margin-left: auto; */
+  margin-top:30px;
+
+}
+.section-title-3 , .blog-title{
+  margin-top: 20px;
+  font-family: "Josefin Slab", serif;
+  text-transform: uppercase;
+}
+
+
+ #link1,#link2,#link3,#link4{
+  color: #111;
+  font-size: 19px;
+} 
+#link1:hover,#link2:hover,#link3:hover,#link4:hover{
+  color: red;
+  font-size: 19px;
+} 
+/* #link1:visited,#link2:visited,#link3:visited,#link4:visited{
+  color: red;
+  font-size: 19px;
+}  */
+/* #link1:hover,#link2:hover,#link3:hover,#link4:hover{
+  color: rgb(232, 82, 82);
+} */
+
+/* blog */
+.blog-img{
+  height: 250px;
+}
+ .section-title .section-title-3 {
+    /* font-size: 36px; */
+    font-family: "Josefin Slab", serif;
+    /* font-weight: 700; */
+    padding-bottom: 25px;
+  }
+  
+  @media (max-width: 991px) {
+    .section-title .section-title-3 {
+      font-size: 32px;
+      padding-bottom: 20px;
+
+    }
+  }
+  /* appliqué le responsivité de ecran par l'utilisitation de @media  */
+  
+  @media (max-width: 575px) {
+    .section-title .section-title-3 {
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 479px) {
+    .section-title .section-title-3 {
+      font-size: 20px;
+      /* line-height: 24px; */
+      padding-bottom: 10px;
+    }
+  }
+  .single-blog {
+    transition: all 0.3s ease-in-out;
+            box-shadow: 1px 1px 10px 1px rgba(209, 209, 209, 1);
+  }
+  .single-blog:hover {
+            box-shadow: 0px 15px 30px 0px rgba(209, 209, 209, 1);
+  }
+  
+  .single-blog .blog-content {
+    padding: 25px 25px 40px 30px;
+  }
+    @media (max-width: 479px) {
+    .single-blog .blog-content {
+      padding: 20px 10px;
+    }
+  }
+.blog-content .blog-text > h4{
+  /* margin-bottom:25px ; */
+  font-family: "Josefin Slab", serif;
+}
+  
+
+footer a{
+  text-decoration: none;
+}
+ .achetezmaintenant{
+  border: 1px solid #111;
+  padding: 7px;
+  margin-top: 10px; 
+  text-decoration: none;
+  color: #111;
+  border-radius: 10px;
+}  
+
+.achetezmaintenant:hover{
+  border: 1px solid #111;
+  padding: 8px;
+  margin-top: 10px; 
+  text-decoration: none;
+  background-color: #111;
+  color:white;
+  border-radius: 10px;
+} 
+ .blog-title{
+   margin-top: 110px; 
+    margin-bottom: 30px;
+  }   
+ .single-blog{
+  border-radius: 15px;
+} 
+.d-block img{
+  border-radius: 15px;
+  height: 270px;
+}
+@media (max-width: 575px) {
+  .d-block img{
+    height: 350px;
+  }
+}
+/* .buynow h5{
+  font-size: 17px;
+  padding: 5px;
+}
+.buynow {
+  border: 1px solid black; 
+  border-radius: 10px;
+ /* background-color: #111;  
+  color: black; 
+  padding: 5px;
+ }   */
+
+.blog-text{
+  text-align: center;
+}
+ 
+ .blog-text h4{
+   text-align: center;
+   justify-content: center;
+ }
+
+/* .navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+} */
+.contact-us-area{
+  margin-top: 130px;
+}
+/* .contact-us-area .form-message button {
+  padding-right: 10px;
+} */
+
+.contact-us-area .comment-box h5 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.contact-info-item {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 60px 20px;
+  margin-bottom: 30px;
+}
+
+.contact-info-item .con-info-icon {
+  border: 1px solid brown;
+  border-radius: 100px;
+  color: brown;
+  font-size: 35px;
+  margin: 0 auto 20px;
+  /* -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s; */
+  /* line-height: 60px; */
+  height: 60px;
+  width: 60px;
+}
+
+.contact-info-item .con-info-txt h4 {
+  font-size: 18px;
+  /* margin-top: -2px; */
+  margin-bottom: 15px;
+}
+.blog-contact{
+  font-family: "Josefin Slab", serif;
+  margin-bottom: 20px;
+}
+
+.contact-info-item:hover .con-info-icon {
+  background-color: brown;
+  color: #ffffff;
+}
+.fa-solid{
+  font-size: 26px;
+}
+
+.section-title{
+  font-family: "Josefin Slab", serif;
+}
